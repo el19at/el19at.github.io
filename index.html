@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Elya Athlan | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container">
+      <div class="logo">Elya Athlan</div>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="hamburger"><img src="icons/hamburger.png" alt="Menu"></div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container hero-content">
+      <div class="hero-text">
+        <h1>Software Engineer</h1>
+        <p>Building efficient backend systems and solving real-world problems with clean, API-driven automation.</p>
+        <a href="#contact" class="btn">Get in Touch</a>
+      </div>
+      <div class="hero-photo"><img src="imgs/hero.jpg" alt="Elya Athlan"></div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section about">
+    <div class="container about-content">
+      <div class="about-text">
+        <h2>About Me</h2>
+        <p>
+          Software Engineer with backend and data integration expertise. I enjoy building efficient systems, integrating APIs, and solving real-world problems through automation, machine learning and clean design.
+        </p>
+      </div>
+      <div class="skills">
+        <h3>Skills</h3>
+        <ul>
+          <li><span>Python</span><div class="bar full"></div></li>
+          <li><span>Node.js</span><div class="bar medium"></div></li>
+          <li><span>Docker</span><div class="bar medium"></div></li>
+          <li><span>Firebase</span><div class="bar short"></div></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2 class="section-title">My Projects</h2>
+
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-img"><img src="imgs/catan.png" alt="Catan board"></div>
+          <h3>Catan Multiplayer Game</h3>
+          <p>A Python-based implementation of Catan with real-time server-client multiplayer over a network.</p>
+          <a class="btn small" href="https://github.com/el19at/Catan" target="_blank">View Project</a>
+        </div>
+
+        <div class="project-card">
+          <div class="project-img"><img src="imgs/snort.png" alt="Snort AI Game"></div>
+          <h3>Snort AI Game</h3>
+          <p>Developed an implementation of the abstract strategy game Snort alongside a trained AI agent using deep reinforcement learning techniques inspired by AlphaGo. The system combines self-play training, Monte Carlo Tree Search (MCTS), and neural networks to create a competitive agent capable of playing against human players.</p>
+          <a class="btn small" href="https://github.com/Aviv-Elya-Dev-Team/SnortAlphaGo" target="_blank">View Project</a>
+        </div>
+
+        <div class="project-card">
+          <div class="project-img"><img src="imgs/taskSim.png" alt="Task Scheduling Simulator"></div>
+          <h3>Task Scheduling Simulator</h3>
+          <p>Developed a simulator to solve task scheduling challenges in heterogeneous parallel systems, inspired by real-world constraints from autonomous vehicle platforms like Mobileye. The system compares heuristic scheduling strategies on real DAG-based workloads (~5000 tasks per file), achieving improved efficiency over greedy baselines using a novel median-based method and practical online scheduling techniques.</p>
+          <a class="btn small" href="https://github.com/Task-Scheduling-Team-Azrieli/TasksSim" target="_blank">View Project</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section contact">
+    <div class="container contact-content">
+      <div class="contact-form">
+        <h2>Get In Touch</h2>
+        <form>
+          <input type="text" placeholder="Name" />
+          <input type="email" placeholder="Email" />
+          <textarea placeholder="Message"></textarea>
+          <button class="btn" type="submit">Send Message</button>
+        </form>
+      </div>
+      <div class="contact-info">
+        <h3>Contact Information</h3>
+        <p>📧 <a href="mailto:elyaathlan@gmail.com">elyaathlan@gmail.com</a></p>
+        <p>📍 Jerusalem, Israel</p>
+            <p class="social-icons">
+                <a href="https://github.com/el19at" target="_blank" aria-label="GitHub">
+                    <img src="icons/github.png" alt="GitHub icon" />
+                </a>
+                <a href="http://www.linkedin.com/in/elyaathlan" target="_blank" aria-label="LinkedIn">
+                    <img src="icons/linkedin.png" alt="LinkedIn icon" />
+                </a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <p>© 2025 Elya Athlan. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
